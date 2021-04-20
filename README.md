@@ -24,18 +24,21 @@ The third stage of the encoding section is connected to the third stage of the d
 In this study, I used accuracy, Iou, and F1score for segmentation of lung regions. <br>
 
 Accuracy is a measure of the degree of agreement between the estimated result and the answer. <br>
+
 ![\begin{align*}
 Accuracy=\frac{TP+TN}{TP+FP+TN+FN}
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AAccuracy%3D%5Cfrac%7BTP%2BTN%7D%7BTP%2BFP%2BTN%2BFN%7D%0A%5Cend%7Balign%2A%7D%0A) <br>
 
 IoU(intersection over union) is a method used in the field of object recognition to evaluate the degree of coincidence of regions, and it is used to evaluate contour leakage and slight overflow in a strict manner. <br>
+
 ![\begin{align*}
 IoU=\frac{TP}{TP+FP+FN}
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AIoU%3D%5Cfrac%7BTP%7D%7BTP%2BFP%2BFN%7D%0A%5Cend%7Balign%2A%7D%0A) <br>
 
 The Dice coefficient is a measure of how similar the two sets are, and is used to evaluate whether or not something is being detected. <br>
+
 ![\begin{align*}
 Dice=\ \frac{2TP}{2TP+FN+FP}
 \end{align*}
