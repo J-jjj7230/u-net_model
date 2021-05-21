@@ -5,8 +5,8 @@
 # overview
 
 ## Datasets and Image size
-Tha image datasets(labled lung image of chest x-ray images) published by the japanese Society of Radiological Technology is used.
-(http://imgcom.jsrt.or.jp/minijsrtdb/) <br>
+Tha image datasets(labled lung image of chest x-ray images) published by the japanese Society of Radiological Technology is used
+(http://imgcom.jsrt.or.jp/minijsrtdb/). <br>
 This data has been labeled by professional doctors. <br>
 There are 237 images and image size is 128×128 grayscale images. The ratio of training data to evaluate data is  7:3.
 
